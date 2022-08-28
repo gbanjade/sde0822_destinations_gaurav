@@ -1,0 +1,33 @@
+
+.top_box{
+    border: 8px solid greenyellow;
+    margin: 4px 6px 10px 6px;
+    height:200px;
+    padding-top:30px;
+
+
+}
+.left_column{
+    border:8px solid red;
+    margin: 0px;
+    padding:15px 140px 100px;
+}
+.right_column{
+    border:8px solid blue;
+    padding-top:2px;
+}
+.purple_box{
+    border: 8px solid magenta;
+    height:12%;
+    padding-top:10px;
+    padding-left: 35px;
+    
+}
+.yellow_box{
+    border: 8px solid yellow;
+    height: 80%;
+
+}
+.btn{
+    width: 100%;
+}
