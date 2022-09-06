@@ -31,3 +31,8 @@
 .btn{
     width: 100%;
 }
+
+.btn_list{
+    width: 20%;
+    margin: 10%;
+}

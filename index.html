@@ -33,59 +33,54 @@
     <div class="container text-center">
       <div class="row justify-content-evenly">
         <div class="col-5 left_column">
-          <div class="mb-3 text-start">
-            <label for="destinationName" class="form-label"
-              >Destination name</label
-            >
-            <input
-              type="text"
-              class="form-control"
-              id="destination"
-              placeholder="Enter the name of the destination"
-            />
-          </div>
+          <form id="destination">
+            <div class="mb-3 text-start form-group">
+              <label for="destinationName" class="form-label"
+                >Destination name</label
+              >
+              <input
+                type="text"
+                class="form-control"
+                id="destination"
+                placeholder="Enter the name of the destination"
+              />
+            </div>
 
-          <div class="mb-3 text-start">
-            <label for="location" class="form-label">Location</label>
-            <input
-              type="text"
-              class="form-control"
-              id="location"
-              placeholder="where is it located?"
-            />
-          </div>
+            <div class="mb-3 text-start form-group">
+              <label for="location" class="form-label">Location</label>
+              <input
+                type="url"
+                class="form-control"
+                id="location"
+                placeholder="where is it located?"
+              />
+            </div>
 
-          <div class="mb-3 text-start">
-            <label for="phto" class="form-label">Photo</label>
-            <input
-              type="text"
-              class="form-control"
-              id="photo"
-              placeholder="Enter an image url of the place"
-            />
-          </div>
+            <div class="mb-3 text-start form-group">
+              <label for="photo" class="form-label">Photo</label>
+              <input
+                type="url"
+                class="form-control"
+                id="photo"
+                placeholder="Enter an image url of the place"
+              />
+            </div>
 
-          <div class="mb-3 text-start">
-            <label for="description" class="form-label">Description</label>
-            <textarea
-              class="form-control"
-              id="description"
-              rows="3"
-              placeholder="Description"
-            ></textarea>
-          </div>
-          <button id="btnToAdd" type="button" class="btn btn-primary">
-            Add to list
-          </button>
+            <div class="mb-3 text-start form-group">
+              <label for="description" class="form-label">Description</label>
+              <textarea
+                class="form-control"
+                id="description"
+                rows="3"
+                placeholder="Description"
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Add to list</button>
+          </form>
         </div>
 
         <div class="col-5 right_column text-start">
-          <h1 class="fw-semibold fs-6 bolder purple_box container">
-            Enter destination details
-          </h1>
-          <div class="container yellow_box">
-            <img id="myImg" class="img-fluid rounded" src="" alt="" />
-          </div>
+          <div class="container yellow_box"></div>
         </div>
       </div>
     </div>
